@@ -3,11 +3,21 @@
     "require": {
         "symfony/console": "0.0.1"
     },
-    "license": "MIT",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "yydick",
             "email": "yydick@sohu.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=7.4"
+    },
+    "autoload": {
+      "psr-4": {
+        "Spool\\Formwork\\": "src/Formwork",
+        "Spool\\Crontabs\\": "src/Crontabs"
+      }
+    }
 }
